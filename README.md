@@ -17,3 +17,12 @@ A simple GoLang service that allows file uploads with configurable options.
 git clone https://github.com/your-username/your-repository.git
 ```
 2. Change into the project directory:
+
+```bash
+cd your-repository
+```
+3. Build the executable:
+
+```bash
+go build
+```
