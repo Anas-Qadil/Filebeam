@@ -63,7 +63,8 @@ Make sure to adjust the configuration according to your requirements before runn
 
 ## Usage
 
-Once the service is running, you can upload files by sending a POST request to http://localhost:8080/upload. The uploaded files will be stored in the configured upload directory.</br>
+Once the service is running, you can upload files by sending a POST request to http://localhost:8080/upload.</br>
+The uploaded files will be stored in the configured upload directory.</br>
 
 To change the upload directory, modify the UploadDir field in the Config struct.
 
