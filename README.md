@@ -26,3 +26,35 @@ cd your-repository
 ```bash
 go build
 ```
+4. Run the service:
+
+```bash
+./Filebeam
+```
+
+## Configuration
+
+The service can be configured by modifying the Config struct in the main.go file:
+
+```golang
+type Config struct {
+    // Max file size allowed for uploads
+    MaxFileSize int64;
+    // Allowed file types for uploads
+    AllowedFileTypes []string;
+    // Upload directory
+    UploadDir string;
+    // Generate unique filenames
+    GenerateUniqueFilenames bool;
+}
+
+func main() {
+    config := Config{
+        MaxFileSize:            32 << 20, // 32MB
+        AllowedFileTypes:       []string{".jpg", ".jpeg", ".png", ".gif"},
+        UploadDir:              "uploads/",
+        GenerateUniqueFilenames: true,
+    }
+    // ...
+}
+```
