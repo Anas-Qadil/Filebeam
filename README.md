@@ -70,15 +70,3 @@ To change the upload directory, modify the UploadDir field in the Config struct.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-```text
-MIT License
-
-...
-
-<MIT License text goes here>
-
-...
-
-```
-
