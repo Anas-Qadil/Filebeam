@@ -14,12 +14,12 @@ A simple GoLang service that allows file uploads with configurable options.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Anas-Qadil/Filebeam
 ```
 2. Change into the project directory:
 
 ```bash
-cd your-repository
+cd Filebeam
 ```
 3. Build the executable:
 
