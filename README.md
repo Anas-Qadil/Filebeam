@@ -58,3 +58,27 @@ func main() {
     // ...
 }
 ```
+
+Make sure to adjust the configuration according to your requirements before running the service.
+
+## Usage
+
+Once the service is running, you can upload files by sending a POST request to http://localhost:8080/upload. The uploaded files will be stored in the configured upload directory.</br>
+
+To change the upload directory, modify the UploadDir field in the Config struct.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+```text
+MIT License
+
+...
+
+<MIT License text goes here>
+
+...
+
+```
+
